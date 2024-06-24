@@ -5,9 +5,12 @@ resultado del área calculada.*/
 
 #include<iostream>
 #include<cmath>
+#include<windows.h>
 using namespace std;
 int main(){
 	double radio;
+	
+	SetConsoleOutputCP(CP_UTF8);
 
     cout << "Introduce el radio del circulo: ";
     cin >> radio;
